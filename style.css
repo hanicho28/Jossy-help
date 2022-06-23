@@ -1,4 +1,100 @@
-div {
+* {
 
-    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+
+    background-color: lightsalmon;
+    width: 100%;
+    height: 120px;
+}
+
+label.logo {
+
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+
+    float: right;
+    margin: 20px;}
+
+    nav ul li {
+
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+
+        color: white;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    a.active,a:hover{
+
+        background: #1b9bff;
+        transition: .5s;
+    }
+.checkbtn {
+
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+
+}
+
+@media (max-width: 952px) {
+    label.logo{
+
+        font-size: 30px;
+        padding-left: 50px;
+    }
+}
+nav ul li a {
+
+    font-size: 16px;
+
+}
+
+@media (max-width: 858px) 
+ .checkbtn{ 
+     dis
+ }
+
+ 
+#beach
+    {
+    height: 100%;
+    width: 100%; 
+
+ }
+
+.h2 {
+
+    color: lightsalmon;
+    position: absolute;
+    top: 50%;
+    widows: 100%;
+    text-align: right;
+
 }
